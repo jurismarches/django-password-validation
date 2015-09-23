@@ -24,6 +24,7 @@ setup(
     maintainer_email='orcastech@orcasinc.com',
     url='https://github.com/orcasgit/django-password-validation/',
     packages=find_packages(),
+    include_package_data=True,
     package_data={
         'password_validation': ['common-passwords.txt.gz'],
     },
